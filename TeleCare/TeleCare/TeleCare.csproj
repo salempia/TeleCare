@@ -130,7 +130,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cars.cs" />
+    <Compile Include="Models\ExtraCarFeatures.cs" />
+    <Compile Include="Models\Factory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Base\BaseRepository.cs" />
+    <Compile Include="Repository\Base\IRepository.cs" />
+    <Compile Include="Repository\CarsRepository\CarsRepository.cs" />
+    <Compile Include="Repository\CarsRepository\ICarsRepository.cs" />
+    <Compile Include="Repository\FactoryRepository\FactoryRepository.cs" />
+    <Compile Include="Repository\FactoryRepository\IFactoryRepository.cs" />
+    <Compile Include="Service\CarsService\CarsService.cs" />
+    <Compile Include="Service\CarsService\ICarsService.cs" />
+    <Compile Include="Service\FactoryService\FactoryService.cs" />
+    <Compile Include="Service\FactoryService\IFactoryService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -171,7 +184,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

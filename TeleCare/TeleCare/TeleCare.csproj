@@ -127,6 +127,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Exception\BaseException.cs" />
+    <Compile Include="Exception\ExceptionCode.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -139,10 +141,14 @@
     <Compile Include="Repository\Base\IRepository.cs" />
     <Compile Include="Repository\CarsRepository\CarsRepository.cs" />
     <Compile Include="Repository\CarsRepository\ICarsRepository.cs" />
+    <Compile Include="Repository\EmployeeRepository\EmployeeRepository.cs" />
+    <Compile Include="Repository\EmployeeRepository\IEmployeeRepository.cs" />
     <Compile Include="Repository\FactoryRepository\FactoryRepository.cs" />
     <Compile Include="Repository\FactoryRepository\IFactoryRepository.cs" />
     <Compile Include="Service\CarsService\CarsService.cs" />
     <Compile Include="Service\CarsService\ICarsService.cs" />
+    <Compile Include="Service\EmployeeService\EmployeeService.cs" />
+    <Compile Include="Service\EmployeeService\IEmployeeService.cs" />
     <Compile Include="Service\FactoryService\FactoryService.cs" />
     <Compile Include="Service\FactoryService\IFactoryService.cs" />
   </ItemGroup>
@@ -185,8 +191,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Repository\EmployeeRepository\" />
-    <Folder Include="Service\EmployeeService\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

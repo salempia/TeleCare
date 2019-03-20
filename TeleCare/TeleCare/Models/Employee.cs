@@ -14,7 +14,7 @@ namespace TeleCare.Models
 
         public int? EmployeeId { get; set; }
 
-        private string EmployeeName { get; set; }    
+        public string EmployeeName { get; set; }    
 
         public string Address { get; set; }
         public string City { get; set; }

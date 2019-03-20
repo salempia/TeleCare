@@ -131,6 +131,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Cars.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\ExtraCarFeatures.cs" />
     <Compile Include="Models\Factory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -184,6 +185,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Repository\EmployeeRepository\" />
+    <Folder Include="Service\EmployeeService\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
